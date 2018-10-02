@@ -1,5 +1,5 @@
 #' @useDynLib dynhung
-#' @importFrom Rcpp sourceCpp
+#' @import Rcpp
 NULL
 loadModule("APMod", TRUE);
 
